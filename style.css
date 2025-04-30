@@ -1,0 +1,86 @@
+#message {
+    font-size: 18px;
+    color: darkblue;
+  }
+
+  .highlight {
+    background-color: yellow;
+    padding: 5px;
+  }
+
+  #box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin-top: 10px;
+  }
+
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: deepskyblue;
+  }
+
+#slideshow {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#slideshow img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.tab-content {
+  transition: opacity 0.5s ease-in-out;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  display: none; /* Hide all tab contents by default */
+}
+
+.tab-content[style*="display: block"] {
+  opacity: 1;
+}
+
+.tab-content[style*="display: none"] {
+  opacity: 0;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 300px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+small {
+  font-size: 12px;
+}

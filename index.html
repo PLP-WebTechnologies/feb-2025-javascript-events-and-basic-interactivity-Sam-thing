@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Event Handling and Interactive Element Assignment.</title>
+  
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <h1 id="title">Welcome!</h1>
+  <p id="message">My code contains two buttons;
+    <br>one changes the text of the title and the other changes the background color of the box. 
+        <br>When You click the enter button on the keyboard, a message will appear.
+  </p>
+  </p>
+
+  <div>
+   <div>  
+    <button id="changeTextBtn">Change Text</button>
+    <button id="toggleBoxBtn">Background Color</button>
+   </div>
+
+   <div id="slideshow">
+      <img id="slideshowImage" src="download (1).jpeg" alt="Slideshow Image">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <div>
+    <div class="tabs">
+      <button class="tab-btn" data-tab="tab1">Tab 1</button>
+      <button class="tab-btn" data-tab="tab2">Tab 2</button>
+      <button class="tab-btn" data-tab="tab3">Tab 3</button>
+    </div>
+    <div id="tab1" class="tab-content">This is Tab 1</div>
+    <div id="tab2" class="tab-content" style="display: none;">Welcome to Tab 2</div>
+    <div id="tab3" class="tab-content" style="display: none;">Hello, you have arrived to Tab 3</div>
+  </div>
+
+  <div>
+    <form id="userForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <small id="emailError" style="color: red; display: none;">Invalid email format</small>
+      <br><br>
+    
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <small id="passwordError" style="color: red; display: none;">Password must be at least 8 characters</small>
+      <br><br>
+    
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+    
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
